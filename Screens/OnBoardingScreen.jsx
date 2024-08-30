@@ -28,21 +28,21 @@ const OnboardingScreen = () => {
       <Swiper
         paginationStyle={{
           position: "absolute",
-          top: 310,
+          top: 270,
           paddingHorizontal: 24,
           height: "100%",
         }}
         dotStyle={{
           width: 8,
           height: 8,
-          backgroundColor: "#EA4747",
+          backgroundColor: "#830000",
           borderRadius: 9,
         }}
         activeDotStyle={{
           width: 42,
           height: 8,
           borderRadius: 9,
-          backgroundColor: "#EA4747",
+          backgroundColor: "#830000",
         }}
         autoplay
       >
@@ -74,7 +74,7 @@ const OnboardingScreen = () => {
                 fontWeight: "light",
                 color: "black",
                 textAlign: "center",
-                marginTop: 10,
+                marginBottom: 80
               }}
             >
               {data.content}
@@ -91,7 +91,7 @@ const OnboardingScreen = () => {
             backgroundColor: "#830000",
             borderRadius: 8,
             position: "absolute",
-            bottom: 80,
+            bottom: 70,
           }}
           onPress={()=>navigation.navigate('playlist')}
         >
