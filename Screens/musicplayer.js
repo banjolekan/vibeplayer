@@ -198,7 +198,6 @@ const MusicPlayer = () => {
       Alert.alert('Error', 'Unable to find the audio file.');
     }
 
-
   
 
 

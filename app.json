@@ -15,11 +15,18 @@
       "supportsTablet": true
     },
     "android": {
+    
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+        
       },
-      "package": "com.lekanbanjo.vibeplayerapp"
+      "package": "com.lekanbanjo.vibeplayerapp",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
